@@ -439,7 +439,7 @@ section .title::after {
   content: "see my work";
 }
 .project .carousel .card {
-  background: #222;
+  background: rgb(253, 76, 76);
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
