@@ -33,27 +33,14 @@ $(document).ready(function () {
       $(".menu-btn i").toggleClass("active");
     });
   
-    // typing text animation script
-    var typed = new Typed(".typing", {
-      strings: ["Back-End Developer", "Dreamer"],
-      typeSpeed: 100,
-      backSpeed: 60,
-      loop: true,
-    });
-  
-    var typed = new Typed(".typing-2", {
-      strings: ["Back-End Developer", "Dreamer"],
-      typeSpeed: 100,
-      backSpeed: 60,
-      loop: true,
-    });
+   
   
     // owl carousel script
     $(".carousel").owlCarousel({
       margin: 20,
       loop: true,
-      autoplay: true,
-      autoplayTimeOut: 2000,
+      autoplay: false,
+      autoplayTimeOut: 50000,
       autoplayHoverPause: true,
       responsive: {
         0: {
